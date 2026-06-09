@@ -48,6 +48,7 @@ import Cap2Logo from './assets/work_logo/Cap2.jpg';
 import npmLogo from './assets/work_logo/npm.png';
 import Cap5Logo from './assets/work_logo/Cap5.jpg';
 import iotLogo from './assets/work_logo/iot.jpg';
+import Cap7Logo from './assets/work_logo/Cap7.jpg';
 
 export const SkillsInfo = [
   {
@@ -306,7 +307,7 @@ export const SkillsInfo = [
         • Exploring Grad-CAM for interpretable AI-based prediction visualization.
         • Research paper accepted for presentation and publication at ICT4SD 2026 conference.
       `,      
-image: npmLogo,
+image: Cap7Logo,
       tags: ["Python, PyTorch, CNN, ResNet18, OpenCV, Flask, MongoDB"],
        
       
