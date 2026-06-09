@@ -63,7 +63,7 @@ const About = () => {
             {/* DOWNLOAD CV */}
 
             <a
-              href="/resume.pdf"
+              href="/Prachi_Joshi_Resume.pdf"
               download
               className="
               px-8
@@ -82,7 +82,7 @@ const About = () => {
               hover:-translate-y-1
               "
             >
-              Download CV
+              Download Resume
             </a>
 
             {/* CONTACT ME */}
