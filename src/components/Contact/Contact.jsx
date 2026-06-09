@@ -5,18 +5,19 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const form = useRef();
-  const [setIsSent] = useState(false);
-
+  
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_d8i5qui",  // Replace with your EmailJS Service ID
-        "template_ipoq18r",  // Replace with your EmailJS  Template ID
-        form.current,
-        "hRtSKwmu90h-bOHDG"  // Replace with your EmailJS Public Key
-      )
+
+emailjs.sendForm(
+  import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  form.current,
+  import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+)
+
+  
       .then(
         () => {
           setIsSent(true);
